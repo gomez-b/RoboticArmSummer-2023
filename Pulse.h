@@ -273,7 +273,7 @@ void ADC_Initialize_(void)
     ANSELAbits.ANSELA3 = 1; //Set RA3 to analog
     ADCON0bits.ON = 1; //Turn ADC On    
 }
-int ADC_readValue(int channel)
+int ADC_readValue(int channel)//this function is able to read multiple ADC channels at once
 {
     int digital;
     ADCON0bits.GO = 1;  // Start A/D conversion
