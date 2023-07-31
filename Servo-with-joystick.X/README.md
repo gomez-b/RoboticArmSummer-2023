@@ -1,7 +1,8 @@
-This project uses PIC18F46k42 microcontroller with  MPLAB X IDE XC8 to make a robot claw. 
+This project uses PIC18F46k42 microcontroller with  MPLAB X IDE XC8 to make a robot claw. Power supply is made up of
+9V battery to power entire circuit, using the power module: 5v on each side. 
 This claw consists of four 'TIANKONGRC Micro Servo 9g SG90 Analog' motors 
 which allows the robot to move in many angles. To control all these servos, two joystick sensors will be used. Since each joystick 
-has two inputs 'x' and 'y', each input will be connected to an indivdual servo that can be controlled on the axis. 
+has two inputs 'x' and 'y', each input will be connected to an indivdual servo that can be controlled on the axis.
 
 
 
