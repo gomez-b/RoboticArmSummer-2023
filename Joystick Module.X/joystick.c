@@ -42,11 +42,11 @@ void main(void) {
      
         //** X-Direction **//
         if (joy_X > 800) {
-            PORTCbits.RC0 = 1; // Turn on RC2 (joystick is to the left)
+            PORTCbits.RC0 = 1; // Turn on RC0 (joystick is to the left)
 
         }
         if (joy_X < 100){
-           PORTCbits.RC1 = 1; // Turn on RC2 (joystick is to the right)
+           PORTCbits.RC1 = 1; // Turn on RC1 (joystick is to the right)
 
         }
         // Check if joy_X is between 800 and 100 one less , when joystick is in middle
@@ -57,7 +57,7 @@ void main(void) {
         }
         //** Y-Direction **//
         if (joy_Y > 800) {
-            PORTCbits.RC3 = 1; // Turn on RC2 (joystick is up )
+            PORTCbits.RC3 = 1; // Turn on RC3 (joystick is up )
         }
         if (joy_Y < 100){
            PORTCbits.RC2 = 1; // Turn on RC2 (joystick is down)           
@@ -65,8 +65,8 @@ void main(void) {
         // Check if joy_X is between 800 and 100 one less 
         if (joy_Y >= 99 && joy_Y <= 799) {
             // Turn off RC0 and RC1
-            PORTCbits.RC2 = 0; // Turn off RC0
-            PORTCbits.RC3 = 0; // Turn off RC1
+            PORTCbits.RC2 = 0; // Turn off RC2
+            PORTCbits.RC3 = 0; // Turn off RC3
         }
         //** Joystick button(if pressed = all lights light up) not implemented!!!
 //        if (joystick_SW == 1){
