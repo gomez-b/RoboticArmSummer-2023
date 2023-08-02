@@ -6,3 +6,7 @@ has two inputs 'x' and 'y', each input will be connected to an indivdual servo t
 
 
 <img width="637" alt="Screen Shot 2023-07-27 at 1 25 48 PM" src="https://github.com/gomez-b/gomez-b/assets/140544273/e7252237-428a-4c3f-bca7-86df1b7cbffb">
+
+
+** Live Simulation Video**
+[Robot-Claw.zip](https://github.com/gomez-b/SSUSummer-2023/files/12245215/Robot-Claw.zip)
