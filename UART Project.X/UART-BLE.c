@@ -24,7 +24,7 @@ const char* on = "o";
 const char* both = "b";
 const char* on_two = "t";
 const char* off = "f";
-char my_name[]= "Brian Gomez Jimenez \r\n";//
+char my_name[]= "Hello World! \r\n";//
 char uart_rd;
 char data_r[50];
     //**Calling Functions**//
@@ -35,7 +35,7 @@ char data_r[50];
     LATD = 0b0000000;
     ANSELD = 0b00000000;
 
-    //** UNCOMMENT TO SEND "Brian Gomez Jimenez" THROUGH TERMINAL**//
+    //** UNCOMMENT TO SEND "Hello World!" THROUGH TERMINAL**//
     //WRITE TO TERMINAL ONLY!!!!!!!!!
 //    while(1) {
 //        
