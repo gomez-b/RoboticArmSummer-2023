@@ -1,14 +1,3 @@
-/* In this project we used MCC to configure UART1 module. 
- * The main.c include several simple calls in which we can send characters or
- * receive characters. 
- *  
- *
- * Author: Farid Farahmand
- */
-
-
-// PIC18F46K42 Configuration Bit Settings
-
 /*
  * In this project we used MCC to configure UART1 module. 
  * The main.c include several simple calls in which we can send characters or
@@ -86,7 +75,7 @@ void SendDataToThingSpeak(int Value) {
 
     UART1_WriteString("AT+CIPCLOSE\r\n");
 }
-
+//Generates a random number to send to ThingsSpeak. 
 int main() {
     srand((unsigned int)_XTAL_FREQ);
 
